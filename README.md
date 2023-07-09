@@ -1,29 +1,15 @@
-# Cricket Tournament Simulation
+# Advanced Cricket Tournament Simulation Program using Python
 
-This Python program simulates a cricket tournament involving two teams. The simulation takes into account the player statistics, such as batting, bowling, fielding, running, and experience, to determine the probabilities of various events occurring during the match, such as boundaries, wickets, and runs scored.
-
-## Methodology
-
-The program consists of several classes:
-
-- Player: Represents a cricket player with various statistics.
-- Team: Represents a team consisting of players. Handles selecting the captain, setting the batting order, and choosing the bowler.
-- Field: Represents the field conditions, including size, fan ratio, pitch conditions, and home advantage.
-- Umpire: Simulates the actions of an umpire, including predicting outcomes based on player probabilities, keeping track of scores, wickets, and overs.
-- Commentator: Provides live commentary during the match based on the umpire's actions and match stats.
-- Match: Simulates an individual cricket match using objects of the Teams, Field, Umpire, and Commentator classes. Starts the match, handles innings, and determines the winner.
-
-The match simulation consists of multiple balls, and each ball predicts outcomes based on the probabilities of the batsman and bowler. The umpire keeps track of the scores, wickets, and overs. The commentator provides live commentary based on the match's progress.
+Two teams compete in a cricket competition that is simulated by this Python programme. The simulation uses player statistics, including batting, bowling, fielding, running, and experience, to calculate the likelihood that different match outcomes, including boundaries, wickets, and runs scored, will occur.
 
 ## Instructions
 
-1. Install Python: Ensure that Python is installed on your system. This program is compatible with Python 3.
-
-2. Clone the repository: Clone this repository to your local machine.
-
-3. Navigate to the project directory: Open a terminal or command prompt and navigate to the directory where you cloned the repository.
-
-4. Run the program: Execute the following command to run the cricket tournament simulation:
+1. There is no need to install Python on your system to execute these files.
+2. First go to google collab website here is the link of that https://colab.research.google.com/?utm_source=scs-index
+3. Now you have to clone the repository using !git clone "respository link".
+4. After this you have to run main.py file for that you can hit new line and write this command !python main.py
+5. By running main.py you can now see the result.
+6. I have also uploaded the screen recording of the assignment in this repository
 
    ```shell
    python main.py
